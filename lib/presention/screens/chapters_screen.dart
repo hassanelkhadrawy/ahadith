@@ -71,10 +71,11 @@ class _ChapterScreenState extends State<ChapterScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       backgroundColor: MyColors.myGrey,
       appBar: AppBar(
         title: Text(
-          'Chapters',
+          'Chapters ',
           style: TextStyle(fontSize: 18, color: MyColors.myWhite),
         ),
         backgroundColor: MyColors.myNebety,
